@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Satisfy';
+    src: url('Satisfy-Regular.ttf') format('truetype'); 
+}
+
+.satisfy {
+    font-family: 'Satisfy';
+}
+
+.banner {
+    width: 100vw;
+}
+
+#items {
+    text-align: center;
+}
