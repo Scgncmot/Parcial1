@@ -1,16 +1,69 @@
 @font-face {
-    font-family: 'Satisfy';
-    src: url('Satisfy-Regular.ttf') format('truetype'); 
+  font-family: "Satisfy";
+  src: url("Satisfy-Regular.ttf") format("truetype");
 }
 
 .satisfy {
-    font-family: 'Satisfy';
+  font-family: "Satisfy";
 }
 
 .banner {
-    width: 100vw;
+  width: 100vw;
 }
 
 #items {
-    text-align: center;
+  text-align: center;
+}
+
+.embed-responsive .card-img-top {
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-footer {
+  background-color: white;
+  border: white;
+  text-align: left;
+}
+
+.nav-link {
+  font-size: large;
+}
+
+.nav {
+  border-bottom: gray;
+}
+
+header {
+  margin-bottom: 2vh;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.content {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+
+.customButtons {
+  float: right;
+}
+
+.cancel {
+  color: black;
+}
+
+.confirm {
+  background-color: #f2e8de;
+  color: black;
 }
